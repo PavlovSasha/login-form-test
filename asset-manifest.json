@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/login-form-test/static/css/main.28f900ee.css",
+    "main.js": "/login-form-test/static/js/main.a3ec19a9.js",
+    "static/js/787.d0fbee60.chunk.js": "/login-form-test/static/js/787.d0fbee60.chunk.js",
+    "static/media/success.svg": "/login-form-test/static/media/success.e1c96dadc75780dfbb09b4db53e4892a.svg",
+    "static/media/user.svg": "/login-form-test/static/media/user.386802743eaac258c16734b3fd1622d1.svg",
+    "index.html": "/login-form-test/index.html",
+    "static/media/like.svg": "/login-form-test/static/media/like.0859b10ff0093cf726b04d609bd14dd2.svg",
+    "static/media/error.svg": "/login-form-test/static/media/error.735d96dbad785ca1d4473c735cb70715.svg",
+    "static/media/close.svg": "/login-form-test/static/media/close.ff7e7f4ce634c09a4be4f2fda3ea1fb6.svg",
+    "main.28f900ee.css.map": "/login-form-test/static/css/main.28f900ee.css.map",
+    "main.a3ec19a9.js.map": "/login-form-test/static/js/main.a3ec19a9.js.map",
+    "787.d0fbee60.chunk.js.map": "/login-form-test/static/js/787.d0fbee60.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.28f900ee.css",
+    "static/js/main.a3ec19a9.js"
+  ]
+}
