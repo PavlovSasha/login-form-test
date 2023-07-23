@@ -1,0 +1,23 @@
+.counter {
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #28a745;
+  padding: 8px 16px;
+  border-radius: 10px;
+  color: white;
+  width: min-content;
+  display: flex;
+  align-items: center;
+}
+
+.negative {
+  background-color: #dc3545;
+}
+
+.icon {
+  margin-right: 8px;
+}
+
+.negative-icon {
+  transform: rotate(180deg);
+}

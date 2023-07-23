@@ -1,0 +1,55 @@
+.label {
+  font-weight: 700;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+
+.labelText {
+  margin-bottom: 12px;
+}
+
+.input {
+  border: 1px solid transparent;
+  outline: none;
+  background-color: #f7f7f7;
+  height: 48px;
+  width: 100%;
+  font-size: 20px;
+  padding: 12px;
+  border-radius: 3px;
+  position: relative;
+}
+
+.inputError {
+  border: 1px solid #db6969;
+}
+
+.inputError:after {
+  content: 'dfsadsf';
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-color: #db6969;
+  top: 0;
+  right: 0;
+  display: block;
+  z-index: 11;
+}
+
+.error {
+  color: #dc6d6f;
+  font-size: 12px;
+  line-height: 14px;
+  position: absolute;
+  bottom: -14px;
+  font-weight: 400;
+}
+
+.errorIcon {
+  position: absolute;
+  bottom: 12px;
+  right: 10px;
+}

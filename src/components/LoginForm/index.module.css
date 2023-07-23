@@ -1,0 +1,111 @@
+.container {
+  width: 100%;
+  max-width: 750px;
+  height: 364px;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.02);
+  background-color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.logo {
+  width: 100%;
+  max-width: 375px;
+  height: 100%;
+  background-color: var(--main-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.logo svg {
+  width: 248px;
+  height: 248px;
+}
+
+.form {
+  width: 100%;
+  max-width: 375px;
+  padding: 52px 20px 24px 20px;
+  position: relative;
+}
+
+.form label {
+  margin-bottom: 34px;
+}
+
+.form label:last-of-type {
+  margin-bottom: 24px;
+}
+
+.closeButton { 
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  cursor: pointer;
+}
+
+.closeButton svg {
+  width: 24px;
+  height: 24px;
+  fill: var(--main-bg-color);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+.footer span {
+  margin: 0 16px 0 12px;
+  text-decoration: underline;
+  font-size: 14px;
+  line-height: 16px;
+  position: relative;
+  cursor: pointer;
+}
+
+.footer span:not(:last-of-type):after {
+  content: '';
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: var(--main-bg-color);
+  top: calc(50% - 2px);
+  right: -16px;
+}
+
+@media (max-width: 760px) {
+  .container {
+    max-width: 375px;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .closeButton { 
+    top: 10px;
+    right: 10px;
+  }
+
+  .closeButton svg {
+    fill: white;
+  }
+
+  .logo {
+    padding: 14px 0 8px;
+  }
+
+  .logo svg {
+    width: 178px;
+    height: 178px;
+  }
+
+  .form {
+    padding: 22px 16px 18px;
+  }
+}

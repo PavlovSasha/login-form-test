@@ -1,0 +1,32 @@
+.container {
+  border-radius: 10px;
+  width: 100%;
+  max-width: 750px;
+  background-color: #65b878;
+  padding: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 16px;
+}
+
+.container svg {
+  width: 100%;
+  max-width: 168px;
+}
+
+.container h1 {
+  color: white;
+}
+
+.containerError {
+  background-color: #dc6d6f;
+}
+
+@media (max-width: 760px) {
+  .container {
+    max-width: 375px;
+    padding: 24px;
+  }
+}
